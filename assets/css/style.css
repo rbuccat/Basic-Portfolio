@@ -1,15 +1,16 @@
 body { 
+	background: url(../../assets/images/paper_fibers.png);
 	margin: 0px;
 	padding: 0px;
 }
 
 .main-headerbox { 
-	width: 100%;
+	/*width: 100%;*/
 	background-color: #ffffff;
 	border: 1px solid #cccccc;
 	height: 73px;
 	color: white;
-	position: relative;
+	/*position: relative;*/
 }
 
 .main-headerbox h1 { 
@@ -24,8 +25,8 @@ body {
 	position: absolute;
 	margin-left: 165px;
 	margin-top: -10px;
-    float: left;
-	display: inline-block;
+    /*float: left; REMOVE IF NOT NEEDED*/
+	/*display: inline-block; REMOVE IF NOT NEEDED*/
     }
 
 .main-headerbox li { 
@@ -41,7 +42,7 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-right: 250px;
     margin-top: 22px;
-    display:inline-block;
+    /*display:inline-block; REMOVE IF NOT NEEDED*/
     float:right;
 }
 
@@ -51,7 +52,6 @@ body {
 }
 
 .main-content {
-	background-color: #ffffff;
 	border: 1px solid #dddddd;
 }
 
@@ -77,7 +77,6 @@ body {
 	width: 550px;
 	margin-left: 70px;
 	margin-bottom: 20px;
-
 }
 
 .main-section img {
@@ -113,29 +112,26 @@ body {
 .sidebar hr {
 	width: 200px;
 	margin-bottom: 20px;
+	color:;
 }
 
-.images123 {
-	width: 230px;
-	margin: 0 auto;
+.images {
+	width: 250px;
+	margin-left: 18px;
 	overflow: hidden;
-}
-
-.imgContainer{
-	display: inline-block;
-    float: left;
+	float: left;
 }
 
 .bottom-footer {
 	text-align: center;
 	width: 100%;
-	background-color: #999999;
-	border: 2px solid #cccccc;
+	background: #666666;
+	border-top: 7px solid #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 10px;
 	height: 65px;
 	color: white;
-	position: absolute;
+	position: fixed;
 	margin-top: 500px;
 }
 
