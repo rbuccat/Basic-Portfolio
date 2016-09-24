@@ -45,6 +45,10 @@ body {
     float:right;
 }
 
+.links {
+	color: #4aaaa5;
+	text-decoration: none;
+}
 
 .main-content {
 	background-color: #ffffff;
