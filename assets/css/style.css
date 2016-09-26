@@ -5,12 +5,12 @@ body {
 }
 
 .main-headerbox { 
-	/*width: 100%;*/
+	width: 100%;
 	background-color: #ffffff;
 	border: 2px solid #cccccc;
 	height: 73px;
 	color: white;
-	/*position: relative;*/
+	position: absolute;
 }
 
 .main-headerbox h1 { 
@@ -22,11 +22,9 @@ body {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
-	position: absolute;
 	margin-left: 140px;
 	margin-top: -10px;
-    /*float: left; REMOVE IF NOT NEEDED*/
-	/*display: inline-block; REMOVE IF NOT NEEDED*/
+	float: left;
     }
 
 .main-headerbox li { 
@@ -55,13 +53,18 @@ body {
 	text-decoration: none;
 }
 
+.container {
+	overflow: auto;
+}
+
 .main-section {
 	background-color: #ffffff;
-	width: 650px;
-	height: 450px;
+	width: 630px;
+	min-height: 440px;
+	height: auto;
 	padding: 5px;
 	border: 1px solid #dddddd;
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-left: 140px;
 	float: left;
 }
@@ -76,7 +79,7 @@ body {
 .main-section hr {
 	opacity: 0.4;
 	background-color: #4aaaa5;
-	width: 565px;
+	width: 580px;
 	height: 2px;
 	margin-left: 22px;
 	margin-bottom: 20px;
@@ -93,7 +96,7 @@ body {
 .info {
 	opacity: 0.4;
 	padding: 5px 5px 5px 5px; 
-	width: 552px;
+	width: 568px;
 	margin-bottom: 15px;
 }
 
@@ -108,19 +111,28 @@ body {
 	position: absolute;
 }
 
-.main-section img {
+.me img {
 	width: 25%;
 	height: auto;
 	margin-left: 22px;
 }
 
-.main-section > p {
+.me p {
 	/*margin-left: 205px;
 	margin-top: -168px;
 	padding-right: 20px;*/
-	margin: -168px 50px 0px 205px;
+	margin: -168px 23px 0px 205px;
+	line-height: 175%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
+}
+
+.randomimg img {
+	height: 206px;
+	width: 275px;
+	padding: 10px 5px 10px 0px;
+	margin-left: 23px;
+	position: relative;
 }
 
 .sidebar {
@@ -131,7 +143,7 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	border: 1px solid #dddddd;
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-right: 255px;
 	float: right;
 }
@@ -161,18 +173,95 @@ body {
 }
 
 .bottom-footer {
-	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+    bottom: 0;
+    text-align: center;
+    border-top: 7px solid #4aaaa5;
+    background: #666666;
+    color: white;
+	/*text-align: center;
 	width: 100%;
 	background: #666666;
 	border-top: 7px solid #4aaaa5;
 	height: 65px;
 	color: white;
-	position: fixed;
-	margin-top: 500px;
+	margin-top: 500px;*/
 }
 
 .bottom-footer p {
-	margin-top: 25px;
+	margin-bottom: 10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 10px;
+}
+
+#label1 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 332px;
+    left: 169px;
+}
+
+#label2 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 332px;
+    left: 476px;
+}
+
+#label3 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 562px;
+    left: 169px;
+}
+
+#label4 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 562px;
+    left: 476px;
+}
+
+#label5 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 791px;
+    left: 169px;
 }
