@@ -2,6 +2,7 @@ body {
 	background: url(../../assets/images/paper_fibers.png);
 	margin: 0px;
 	padding: 0px;
+	overflow-x: hidden;
 }
 
 .main-headerbox { 
@@ -10,7 +11,8 @@ body {
 	border: 2px solid #cccccc;
 	height: 73px;
 	color: white;
-	position: absolute;
+	position: fixed;
+	z-index: 99;
 }
 
 .main-headerbox h1 { 
@@ -22,8 +24,11 @@ body {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
-	margin-left: 140px;
-	margin-top: -10px;
+	position: fixed;
+	left: 140px;
+	top: -26px;
+	/*margin-left: 140px;
+	margin-top: -10px;*/
 	float: left;
     }
 
@@ -38,8 +43,11 @@ body {
 .main-headerbox ul {
     list-style-type: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-right: 270px;
-    margin-top: 22px;
+    /*margin-right: 270px;
+    margin-top: 22px;*/
+    position: fixed;
+    right: 278px;
+    top: 12px;
     float:right;
 }
 
@@ -111,14 +119,16 @@ body {
 }
 
 .me img {
+	clear: both;
+	float: left;
 	width: 25%;
 	height: auto;
-	margin-left: 22px;
+	margin: 8px 20px 0px 22px;
 }
 
 .me p {
-	margin: -168px 23px 0px 205px;
-	line-height: 175%;
+	margin: 0px 10px 0px 20px;
+	line-height: 220%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
 }
@@ -189,62 +199,10 @@ body {
 	font-size: 10px;
 }
 
-#label1 {
-	text-align: center;
-    background-color: #4aaaa5;
-    width: 275px;
-    height: 62px;
-    line-height: 62px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 332px;
-    left: 169px;
-}
-
-#label2 {
-	text-align: center;
-    background-color: #4aaaa5;
-    width: 275px;
-    height: 62px;
-    line-height: 62px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 332px;
-    left: 476px;
-}
-
-#label3 {
-	text-align: center;
-    background-color: #4aaaa5;
-    width: 275px;
-    height: 62px;
-    line-height: 62px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 562px;
-    left: 169px;
-}
-
-#label4 {
-	text-align: center;
-    background-color: #4aaaa5;
-    width: 275px;
-    height: 62px;
-    line-height: 62px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 562px;
-    left: 476px;
-}
-
+#label1,
+#label2,
+#label3,
+#label4,
 #label5 {
 	text-align: center;
     background-color: #4aaaa5;
@@ -255,6 +213,29 @@ body {
     font-size: 24px;
     color: white;
     position: absolute;
+}
+
+#label1 {
+	top: 332px;
+    left: 169px;
+}
+
+#label2 {
+    top: 332px;
+    left: 476px;
+}
+
+#label3 {
+    top: 562px;
+    left: 169px;
+}
+
+#label4 {
+    top: 562px;
+    left: 476px;
+}
+
+#label5 {
     top: 791px;
     left: 169px;
 }
