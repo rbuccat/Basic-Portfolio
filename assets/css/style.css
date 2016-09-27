@@ -173,7 +173,9 @@ body {
 }
 
 .bottom-footer {
-	position: absolute;
+	height: 65px;
+    width: 100%;
+    margin-top: 925px;
 	left: 0;
 	right: 0;
     bottom: 0;
@@ -191,7 +193,7 @@ body {
 }
 
 .bottom-footer p {
-	margin-bottom: 10px;
+	padding-top: 15px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 10px;
 }
