@@ -1,0 +1,48 @@
+.randomimg img {
+	height: 206px;
+	width: 275px;
+	padding: 10px 5px 10px 0px;
+	margin-left: 23px;
+	position: relative;
+}
+
+#label1,
+#label2,
+#label3,
+#label4,
+#label5 {
+	text-align: center;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 62px;
+    line-height: 62px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+}
+
+#label1 {
+	top: 332px;
+    left: 169px;
+}
+
+#label2 {
+    top: 332px;
+    left: 476px;
+}
+
+#label3 {
+    top: 562px;
+    left: 169px;
+}
+
+#label4 {
+    top: 562px;
+    left: 476px;
+}
+
+#label5 {
+    top: 791px;
+    left: 169px;
+}
